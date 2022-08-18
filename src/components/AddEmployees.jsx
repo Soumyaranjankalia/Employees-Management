@@ -32,7 +32,7 @@ export const AddEmployees = () => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault()
+        // e.preventDefault()
         if(!name || !email || !username || !mobile || !description|| !gender || !salary || !age || !image){
             setError("please fill all the filed")
         }else{
